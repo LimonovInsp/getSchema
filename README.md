@@ -2,7 +2,7 @@
 
 Implement a function that accepts an object and returns its properties data types
 ``` javascript
-function getRobotSchema(schema) {
+function getSchema(schema) {
   // write code
 }
 
@@ -13,7 +13,7 @@ const schema = {
   creator: { name: 'Chickchapukcha' },
 };
 
-console.log(getRobotSchema(schema));  /* expected to be {
+console.log(getSchema(schema));  /* expected to be {
   version: 'number',
   name: 'string',
   released: 'boolean',
